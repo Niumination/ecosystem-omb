@@ -104,3 +104,9 @@ Diterapkan lewat API OMB lokal (`PATCH /api/bots/<id>`, field `composio:true` + 
 Branch protection dipasang di **6 repo tier-1** (lingkup 32 repo): niu-dash, Niu-LKH, pabrik-aplikasi-gas, kune-ya.com, niu-dash-fullstack, ai-file-organizer-android. Aturan: require PR (0 approval), no force-push, no delete, enforce_admins=true. Status check CI menyusul per repo.
 3 routine **diaktifkan**: `sensus-repo` (notaris, harian 06:00), `review-pr` (qa-review, 09:00 & 15:00), `drill-pemulihan` (ops-watch, tgl 1).
 Webhook §6.2 **dilewati** (keputusan manusia 2026-10-19).
+
+## D-0016 — 2026-10-19 — Census deterministik; routine kembali ke notaris
+
+Akar salah census (run manual notaris 16:30): memakai daftar repo **publik** (96) — **44 repo Niumination PRIVAT** (mis. AuditTI-AT, DiskominfoAT, asn-admin, niu-storage) hanya muncul di API terautentikasi; daftar `excluded:` diabaikan; sebagian nama dipelintir.
+Fix: skrip deterministik `scripts/sensus-repo.mjs` (diff daftar API terautentikasi vs registry, hormati `excluded:`). Routine `sensus-repo` dikembalikan ke `notaris` (harian 06:00) dengan instruksi deterministik — wajib pakai tool terautentikasi `GITHUB_LIST_REPOSITORIES_FOR_THE_AUTHENTICATED_USER`, bukan fetch publik.
+Hasil benar 2026-10-19: **140 API = 32 aktif + 108 excluded → 0 selisih**.
