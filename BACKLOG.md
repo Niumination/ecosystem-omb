@@ -43,3 +43,14 @@ Sumber: `docs/RENCANA-INDUK.md` §9. Satu fase per sesi.
 
 - [x] Tim `Sistem & Lingkungan` dibuat: `arga` (Chief), `sys-desktop`, `sys-ade`.
 - [ ] Webhook GitHub di 13 repo tier 1 (§6.2) — **tertunda**, butuh endpoint OMB + secret + URL publik.
+
+## Routine (§8) — 11/11 dibuat, semua DIJEDA
+
+Kantor Pusat: `sensus-repo` (notaris, harian 06:00), `klasifikasi-lain` (notaris, Rabu),
+`kesehatan-tier1` (ops-watch, harian 07:00), `kesehatan-tier2` (ops-watch, Senin 07:00),
+`review-pr` (qa-review, 09:00 & 15:00), `scan-secret` (sec-scan, harian 05:00),
+`audit-dependensi` (sec-scan, Senin 05:30), `digest-harian` (Assistant, harian 19:00),
+`sensus-arsip` (notaris, tgl 1), `drill-pemulihan` (ops-watch, tgl 1),
+Pelayanan Publik: `laporan-publik` (wira, harian 08:00).
+
+Semua nonaktif sampai Fase 0 (branch protection) selesai.

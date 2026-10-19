@@ -67,3 +67,8 @@ Tim `Sistem & Lingkungan` dibuat: `arga` (Chief), `sys-desktop`, `sys-ade`.
 Domain `desktop` + `ade`: 32 repo, 12 own, 4 aktif (hampir semua arsip).
 Organisasi lengkap: **7 tim, 21 bot** (20 baru + Assistant).
 Webhook GitHub 13 repo tier 1 (§6.2) TERTUNDA: butuh endpoint webhook OMB + secret + konfirmasi URL publik.
+
+## D-0010 — 2026-10-19 — Katalog routine §8 lengkap
+
+11/11 routine dibuat, semua DIJEDA (belum dijadwalkan sampai Fase 0). Tidak ada routine baru
+selain yang di §8; kalau mendekati 20, usulkan konsolidasi (§8).
