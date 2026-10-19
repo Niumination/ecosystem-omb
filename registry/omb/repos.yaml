@@ -11,7 +11,7 @@
 version: 2
 generated: 2026-10-19
 source: https://api.github.com/users/Niumination/repos
-counts: {tier1: 6, tier2: 13, tier3: 14, tier4: 2, total: 35, fork: 2}
+counts: {tier1: 6, tier2: 13, tier3: 12, tier4: 2, total: 33, fork: 2}
 
 repos:
   - repo: niu-dash
@@ -218,21 +218,6 @@ repos:
     checks: []
     routine: monthly
     catatan: belum terklasifikasi - notaris wajib menyelesaikan
-  - repo: ZaryuHive
-    tier: 3
-    fork: false
-    domain: lain
-    team: Kantor Pusat
-    owner: notaris
-    reviewer: none
-    lang: null
-    size_kb: 79847
-    days_since_push: 510
-    write_policy: pr-only
-    approval: bot-merge
-    checks: []
-    routine: monthly
-    catatan: belum terklasifikasi - notaris wajib menyelesaikan
   - repo: Niu-Startpage
     tier: 3
     fork: false
@@ -376,7 +361,7 @@ repos:
   - repo: Niu-Vermilion
     tier: 2
     fork: false
-    domain: lain
+    domain: pusat
     team: Kantor Pusat
     owner: notaris
     reviewer: qa-review
@@ -387,20 +372,6 @@ repos:
     approval: human-merge
     checks: [qa-review]
     routine: weekly
-  - repo: NiuTerm
-    tier: 3
-    fork: false
-    domain: ade
-    team: Sistem & Lingkungan
-    owner: sys-ade
-    reviewer: none
-    lang: TypeScript
-    size_kb: 127
-    days_since_push: 146
-    write_policy: pr-only
-    approval: bot-merge
-    checks: []
-    routine: monthly
   - repo: PP-AT
     tier: 3
     fork: false
@@ -432,9 +403,9 @@ repos:
   - repo: asn-admin
     tier: 2
     fork: false
-    domain: publik
-    team: Pelayanan Publik
-    owner: publik-akuntabilitas
+    domain: pusat
+    team: Kantor Pusat
+    owner: notaris
     reviewer: qa-review
     lang: Python
     size_kb: 174
@@ -446,9 +417,9 @@ repos:
   - repo: eKinerja-AfrizalMunthe
     tier: 2
     fork: false
-    domain: publik
-    team: Pelayanan Publik
-    owner: publik-akuntabilitas
+    domain: pusat
+    team: Kantor Pusat
+    owner: notaris
     reviewer: qa-review
     lang: null
     size_kb: 38736
@@ -488,7 +459,7 @@ repos:
   - repo: ultra-automation
     tier: 2
     fork: false
-    domain: lain
+    domain: pusat
     team: Kantor Pusat
     owner: notaris
     reviewer: qa-review
@@ -533,6 +504,7 @@ excluded:
   - repo: Hyde-cli
   - repo: JHermUSB-portable
   - repo: Niu-OSS-Dashboard
+  - repo: NiuTerm
   - repo: Niumination
   - repo: Online-Ryu_OBS
   - repo: PAGASUS-PRO
@@ -546,6 +518,7 @@ excluded:
   - repo: Windots
   - repo: Zaryu-Dotfiles
   - repo: Zaryu-HyDE
+  - repo: ZaryuHive
   - repo: abstract-studio
   - repo: agentic-awesome-skills
   - repo: agsv1-hyprpanel
