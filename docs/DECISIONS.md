@@ -8,11 +8,11 @@ Rumah setup & konfigurasi ekosistem OMB (Niumination Works), terpisah dari
 `ecosystem-config` (Hermes) dan `omb-lightvela` (deployment).
 Pemilik: `Assistant` (Chief of Staff). Diputuskan oleh manusia (Afrizal Munthe).
 
-## D-0002 — 2026-10-19 — Kandidat lokasi registry — MENUNGGU KEPUTUSAN MANUSIA
+## D-0002 — 2026-10-19 — Lokasi registry = `ecosystem-omb/registry/omb/repos.yaml` (FINAL)
 
-Usulan: registry di `ecosystem-omb/registry/omb/repos.yaml` (opsi "repo terpisah"
-§9 Fase 0). Bila disetujui, §9 mewajibkan mencatat di sini + mengarsipkan
-sejumlah repo dormant sebagai pengganti (§10).
+Diputuskan manusia (Afrizal Munthe). Opsi "repo terpisah" (§9 Fase 0).
+Konsekuensi §9/§10: arsipkan sejumlah repo dormant sebagai pengganti aturan freeze
+— daftar disiapkan `notaris` di `sensus-arsip` pertama; keputusan tetap di manusia.
 
 ## D-0003 — 2026-10-19 — Sensus manual (Fase 1)
 
@@ -42,3 +42,9 @@ Sumber: GitHub API live, 2026-10-19. Pindah domain butuh keputusan manusia (§4.
 - Ekosistem **lightvela** = repo `brain`, file `docs/ecosystem-changelog.md` (changelog auto-sync). Tidak ada repo khusus seperti `ecosystem-config`/`ecosystem-omb`.
 - `omb-lightvela` **bukan** ekosistem; itu repo setup/deployment instance OMB yang sedang berjalan.
 - Rujukan ditambahkan di `README.md`. Sumber: klarifikasi manusia (Afrizal Munthe).
+
+## D-0006 — 2026-10-19 — Fase 2 dijalankan (Pelayanan Publik)
+
+Tim `Pelayanan Publik` dibuat: `wira` (Chief), `publik-portal`, `publik-akuntabilitas`.
+Routine `laporan-publik` (wira, harian 08:00 Asia/Jakarta, ingat run lalu) dibuat
+dan DIJEDA. Dijadwalkan setelah Fase 0 (branch protection) selesai.
