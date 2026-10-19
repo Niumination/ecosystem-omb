@@ -60,3 +60,10 @@ Tiga tim dibuat sekaligus (Fase 2–3 bersih):
 - `Web & Portal`: `kirana` (Chief), `web-app`.
 - `Perkakas`: `yuda` (Chief), `tools-lead`.
 - `Pendidikan & Riset`: `maya` (Chief), `edu-konten`, `riset-scout` (read-only §6.1).
+
+## D-0009 — 2026-10-19 — Fase 5 dijalankan (Sistem & Lingkungan)
+
+Tim `Sistem & Lingkungan` dibuat: `arga` (Chief), `sys-desktop`, `sys-ade`.
+Domain `desktop` + `ade`: 32 repo, 12 own, 4 aktif (hampir semua arsip).
+Organisasi lengkap: **7 tim, 21 bot** (20 baru + Assistant).
+Webhook GitHub 13 repo tier 1 (§6.2) TERTUNDA: butuh endpoint webhook OMB + secret + konfirmasi URL publik.
