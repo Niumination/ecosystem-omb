@@ -82,3 +82,8 @@ Konsekuensi: beberapa tim tipis atau kosong (mis. Infrastruktur Agen = 0 repo).
 ## D-0012 — 2026-10-19 — Tim Infrastruktur Agen dihapus
 
 Tim `Infrastruktur Agen` (`nala`, `agen-runtime`, `agen-harness`) dihapus karena **0 repo** dalam lingkup OMB 32 repo (D-0011). Org OMB kini **6 tim / 17 bot** (+ Assistant).
+
+## D-0013 — 2026-10-19 — Routine disesuaikan ke lingkup baru
+
+8 routine dihapus (referensi repo/hitungan org lama): `klasifikasi-lain`, `kesehatan-tier1`, `kesehatan-tier2`, `scan-secret`, `audit-dependensi`, `laporan-publik`, `digest-harian`, `sensus-arsip`.
+Disimpan (generik, tetap valid): `sensus-repo` (notaris), `review-pr` (qa-review), `drill-pemulihan` (ops-watch). Semua masih DIJEDA.
