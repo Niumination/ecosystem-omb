@@ -11,7 +11,7 @@
 version: 2
 generated: 2026-10-19
 source: https://api.github.com/users/Niumination/repos
-counts: {tier1: 6, tier2: 13, tier3: 12, tier4: 2, total: 33, fork: 2}
+counts: {tier1: 6, tier2: 12, tier3: 12, tier4: 2, total: 32, fork: 2}
 
 repos:
   - repo: niu-dash
@@ -170,20 +170,6 @@ repos:
     lang: HTML
     size_kb: 214
     days_since_push: 70
-    write_policy: pr-only
-    approval: human-merge
-    checks: [qa-review]
-    routine: weekly
-  - repo: niu-cast
-    tier: 2
-    fork: false
-    domain: perkakas
-    team: Perkakas
-    owner: tools-lead
-    reviewer: qa-review
-    lang: Java
-    size_kb: 163919
-    days_since_push: 13
     write_policy: pr-only
     approval: human-merge
     checks: [qa-review]
@@ -561,6 +547,7 @@ excluded:
   - repo: matt-dotfiles
   - repo: mcp-for-beginners-Microsoft
   - repo: mirai
+  - repo: niu-cast
   - repo: niu-flow
   - repo: niu-gayo-agroclimate
   - repo: niu-gayo-agroclimate-docs
