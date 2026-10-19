@@ -1,13 +1,23 @@
 # ecosystem-omb — Niumination Works
 
 Repo orkestrasi/konfigurasi untuk ekosistem **OpenMausBot (OMB)** milik Niumination.
-Ekosistem ketiga di akun GitHub yang sama, sengaja dipisah supaya tidak saling mengganggu.
+Ekosistem ini berdiri sendiri di akun GitHub yang sama, supaya tidak saling mengganggu.
 
-| Ekosistem | Repo | Isi |
+## Tiga ekosistem
+
+| Ekosistem | Repo / lokasi | Isi |
 | --- | --- | --- |
 | Hermes Agent (mac) | `ecosystem-config` | AGENTS.md, BACKLOG.md, scripts, docs — pipeline Hermes |
-| OMB LightVela | `omb-lightvela` | Docker stack OMB di maus.abstract.biz.id |
+| **lightvela** | `brain` → `docs/ecosystem-changelog.md` | catatan perubahan ekosistem (auto-sync); **tidak ada repo khusus** |
 | **Niumination Works (OMB)** | **`ecosystem-omb`** (repo ini) | registry repo, struktur tim/bot, routine, kebijakan |
+
+Repo pendukung OMB (bukan ekosistem tersendiri):
+
+- `omb-lightvela` — setup/deployment instance OMB yang sedang berjalan (compose, Dockerfile, Caddyfile, config redacted).
+- `omb-lightvela-secrets` (privat) — config utuh, `.env`, backup volume 9router.
+
+Rujukan ekosistem lightvela:
+https://github.com/Niumination/brain/blob/main/docs/ecosystem-changelog.md
 
 ## Isi
 

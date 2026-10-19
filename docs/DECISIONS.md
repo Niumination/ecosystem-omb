@@ -36,3 +36,9 @@ Sumber: GitHub API live, 2026-10-19. Pindah domain butuh keputusan manusia (§4.
 
 - Fase 0: branch protection 13 repo tier 1; lokasi registry final.
 - §6.1: grant tool GitHub per bot (manual, di Connected apps OMB).
+
+## D-0005 — 2026-10-19 — Koreksi peta ekosistem
+
+- Ekosistem **lightvela** = repo `brain`, file `docs/ecosystem-changelog.md` (changelog auto-sync). Tidak ada repo khusus seperti `ecosystem-config`/`ecosystem-omb`.
+- `omb-lightvela` **bukan** ekosistem; itu repo setup/deployment instance OMB yang sedang berjalan.
+- Rujukan ditambahkan di `README.md`. Sumber: klarifikasi manusia (Afrizal Munthe).
