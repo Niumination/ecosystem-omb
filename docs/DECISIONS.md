@@ -72,3 +72,9 @@ Webhook GitHub 13 repo tier 1 (§6.2) TERTUNDA: butuh endpoint webhook OMB + sec
 
 11/11 routine dibuat, semua DIJEDA (belum dijadwalkan sampai Fase 0). Tidak ada routine baru
 selain yang di §8; kalau mendekati 20, usulkan konsolidasi (§8).
+
+## D-0011 — 2026-10-19 — Lingkup ekosistem OMB ditetapkan (32 repo aktif)
+
+Atas keputusan manusia (Afrizal Munthe): lingkup repo ekosistem OMB ditetapkan pada **32 entri aktif**; **108 repo** dikeluarkan ke daftar `excluded:` (dikelola ekosistem lain / di luar lingkup OMB). Penyesuaian lanjutan dilakukan bertahap bila diperlukan.
+Di PR #1 (branch `omb/notaris/20261019-kecualikan-ekosistem`), menunggu merge manusia.
+Konsekuensi: beberapa tim tipis atau kosong (mis. Infrastruktur Agen = 0 repo).
