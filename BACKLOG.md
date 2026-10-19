@@ -7,7 +7,7 @@ Sumber: `docs/RENCANA-INDUK.md` §9. Satu fase per sesi.
 | 0 | Prasyarat (manusia): branch protection 13 repo tier 1; lokasi registry | 🟡 registry FINAL; branch protection belum |
 | 1 | Kantor Pusat: notaris, qa-review, sec-scan, ops-watch + routine | 🟡 sebagian |
 | 2 | Pelayanan Publik: wira, publik-portal, publik-akuntabilitas | 🟡 sebagian (bot dibuat; routine dijeda) |
-| 3 | Infrastruktur Agen: nala, agen-runtime, agen-harness | ✅ selesai |
+| 3 | ~~Infrastruktur Agen~~ dihapus (0 repo dalam lingkup 32) | ⚪ dibatalkan |
 | 4 | Pendidikan & Riset, Web & Portal, Perkakas | ✅ selesai |
 | 5 | Sistem & Lingkungan: arga, sys-desktop, sys-ade + webhook | 🟡 tim selesai; webhook tertunda |
 
