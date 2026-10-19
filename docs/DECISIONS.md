@@ -78,3 +78,7 @@ selain yang di §8; kalau mendekati 20, usulkan konsolidasi (§8).
 Atas keputusan manusia (Afrizal Munthe): lingkup repo ekosistem OMB ditetapkan pada **32 entri aktif**; **108 repo** dikeluarkan ke daftar `excluded:` (dikelola ekosistem lain / di luar lingkup OMB). Penyesuaian lanjutan dilakukan bertahap bila diperlukan.
 Di PR #1 (branch `omb/notaris/20261019-kecualikan-ekosistem`), menunggu merge manusia.
 Konsekuensi: beberapa tim tipis atau kosong (mis. Infrastruktur Agen = 0 repo).
+
+## D-0012 — 2026-10-19 — Tim Infrastruktur Agen dihapus
+
+Tim `Infrastruktur Agen` (`nala`, `agen-runtime`, `agen-harness`) dihapus karena **0 repo** dalam lingkup OMB 32 repo (D-0011). Org OMB kini **6 tim / 17 bot** (+ Assistant).
