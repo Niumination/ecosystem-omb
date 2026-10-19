@@ -1,0 +1,1365 @@
+# registry/repos.yaml — katalog tunggal seluruh repo GitHub Niumination
+# Dihasilkan dari GitHub API pada 2026-10-19. JANGAN diketik ulang dari ingatan.
+# Penulis tunggal: bot `notaris` (via PR). Bot lain hanya membaca.
+#
+# Pengelompokan berdasarkan URUSAN (domain), bukan bahasa pemrograman.
+#
+# tier 1 = produksi/live | tier 2 = aktif (push <=120 hari)
+# tier 3 = milik sendiri, dormant | tier 4 = FORK upstream (katalog saja, nol otomasi)
+#
+# write_policy: pr-only | none    approval: human-merge | bot-merge | none
+version: 2
+generated: 2026-10-19
+source: https://api.github.com/users/Niumination/repos
+counts: {tier1: 13, tier2: 25, tier3: 18, tier4: 39, total: 95, fork: 40}
+
+repos:
+  - repo: omb-lightvela
+    tier: 1
+    fork: false
+    domain: agen
+    team: Infrastruktur Agen
+    owner: agen-runtime
+    reviewer: qa-review
+    lang: Dockerfile
+    size_kb: 17
+    days_since_push: 1
+    write_policy: pr-only
+    approval: human-merge
+    checks: [qa-review, sec-scan]
+    routine: daily
+    deploy: lightvela
+  - repo: niu-dash
+    tier: 1
+    fork: false
+    domain: pusat
+    team: Kantor Pusat
+    owner: notaris
+    reviewer: qa-review
+    lang: HTML
+    size_kb: 2060
+    days_since_push: 13
+    write_policy: pr-only
+    approval: human-merge
+    checks: [qa-review, sec-scan]
+    routine: daily
+    deploy: gh-pages
+  - repo: Niumination
+    tier: 1
+    fork: false
+    domain: pusat
+    team: Kantor Pusat
+    owner: notaris
+    reviewer: qa-review
+    lang: JavaScript
+    size_kb: 84
+    days_since_push: 1
+    write_policy: pr-only
+    approval: human-merge
+    checks: [qa-review, sec-scan]
+    routine: daily
+    deploy: github
+  - repo: Niu-LKH
+    tier: 1
+    fork: false
+    domain: publik
+    team: Pelayanan Publik
+    owner: publik-akuntabilitas
+    reviewer: qa-review
+    lang: JavaScript
+    size_kb: 4103
+    days_since_push: 13
+    write_policy: pr-only
+    approval: human-merge
+    checks: [qa-review, sec-scan]
+    routine: daily
+    deploy: gh-pages
+  - repo: pabrik-aplikasi-gas
+    tier: 1
+    fork: false
+    domain: publik
+    team: Pelayanan Publik
+    owner: publik-portal
+    reviewer: qa-review
+    lang: JavaScript
+    size_kb: 122
+    days_since_push: 54
+    write_policy: pr-only
+    approval: human-merge
+    checks: [qa-review, sec-scan]
+    routine: daily
+    deploy: gas
+  - repo: PemdiAcehTengah
+    tier: 1
+    fork: false
+    domain: publik
+    team: Pelayanan Publik
+    owner: publik-portal
+    reviewer: qa-review
+    lang: JavaScript
+    size_kb: 758688
+    days_since_push: 12
+    write_policy: pr-only
+    approval: human-merge
+    checks: [qa-review, sec-scan]
+    routine: daily
+    deploy: vercel
+  - repo: ai-file-organizer-android
+    tier: 1
+    fork: false
+    domain: perkakas
+    team: Perkakas
+    owner: tools-lead
+    reviewer: qa-review
+    lang: Kotlin
+    size_kb: 2772
+    days_since_push: 36
+    write_policy: pr-only
+    approval: human-merge
+    checks: [qa-review, sec-scan]
+    routine: daily
+    deploy: github
+  - repo: AI-First-OS
+    tier: 1
+    fork: false
+    domain: desktop
+    team: Sistem & Lingkungan
+    owner: sys-desktop
+    reviewer: qa-review
+    lang: Shell
+    size_kb: 5
+    days_since_push: 114
+    write_policy: pr-only
+    approval: human-merge
+    checks: [qa-review, sec-scan]
+    routine: daily
+    deploy: github
+  - repo: cc-switch
+    tier: 1
+    fork: true
+    domain: ade
+    team: Sistem & Lingkungan
+    owner: sys-ade
+    reviewer: qa-review
+    lang: Rust
+    size_kb: 66120
+    days_since_push: 73
+    write_policy: pr-only
+    approval: human-merge
+    checks: [qa-review, sec-scan]
+    routine: daily
+    deploy: github
+  - repo: arch-web-dashboard
+    tier: 1
+    fork: false
+    domain: web
+    team: Web & Portal
+    owner: web-app
+    reviewer: qa-review
+    lang: TypeScript
+    size_kb: 34
+    days_since_push: 62
+    write_policy: pr-only
+    approval: human-merge
+    checks: [qa-review, sec-scan]
+    routine: daily
+    deploy: github
+  - repo: kune-ya.com
+    tier: 1
+    fork: false
+    domain: web
+    team: Web & Portal
+    owner: web-app
+    reviewer: qa-review
+    lang: TypeScript
+    size_kb: 194
+    days_since_push: 13
+    write_policy: pr-only
+    approval: human-merge
+    checks: [qa-review, sec-scan]
+    routine: daily
+    deploy: vercel
+  - repo: mac-web-dashboard
+    tier: 1
+    fork: false
+    domain: web
+    team: Web & Portal
+    owner: web-app
+    reviewer: qa-review
+    lang: TypeScript
+    size_kb: 117
+    days_since_push: 62
+    write_policy: pr-only
+    approval: human-merge
+    checks: [qa-review, sec-scan]
+    routine: daily
+    deploy: github
+  - repo: niu-dash-fullstack
+    tier: 1
+    fork: false
+    domain: web
+    team: Web & Portal
+    owner: web-app
+    reviewer: qa-review
+    lang: TypeScript
+    size_kb: 317
+    days_since_push: 81
+    write_policy: pr-only
+    approval: human-merge
+    checks: [qa-review, sec-scan]
+    routine: daily
+    deploy: vercel
+  - repo: hermes-office
+    tier: 2
+    fork: false
+    domain: agen
+    team: Infrastruktur Agen
+    owner: agen-runtime
+    reviewer: qa-review
+    lang: JavaScript
+    size_kb: 101781
+    days_since_push: 0
+    write_policy: pr-only
+    approval: human-merge
+    checks: [qa-review]
+    routine: weekly
+  - repo: jcode-eco
+    tier: 2
+    fork: false
+    domain: agen
+    team: Infrastruktur Agen
+    owner: agen-harness
+    reviewer: qa-review
+    lang: Python
+    size_kb: 312
+    days_since_push: 50
+    write_policy: pr-only
+    approval: human-merge
+    checks: [qa-review]
+    routine: weekly
+  - repo: mirai
+    tier: 2
+    fork: false
+    domain: agen
+    team: Infrastruktur Agen
+    owner: agen-runtime
+    reviewer: qa-review
+    lang: JavaScript
+    size_kb: 30019
+    days_since_push: 7
+    write_policy: pr-only
+    approval: human-merge
+    checks: [qa-review]
+    routine: weekly
+  - repo: niu-mission-control
+    tier: 2
+    fork: false
+    domain: agen
+    team: Infrastruktur Agen
+    owner: agen-runtime
+    reviewer: qa-review
+    lang: TypeScript
+    size_kb: 14383
+    days_since_push: 24
+    write_policy: pr-only
+    approval: human-merge
+    checks: [qa-review]
+    routine: weekly
+  - repo: ecosystem-config
+    tier: 2
+    fork: false
+    domain: pusat
+    team: Kantor Pusat
+    owner: notaris
+    reviewer: qa-review
+    lang: JavaScript
+    size_kb: 46845
+    days_since_push: 0
+    write_policy: pr-only
+    approval: human-merge
+    checks: [qa-review]
+    routine: weekly
+  - repo: Niu-OSS-Dashboard
+    tier: 2
+    fork: false
+    domain: pusat
+    team: Kantor Pusat
+    owner: notaris
+    reviewer: qa-review
+    lang: TypeScript
+    size_kb: 1419
+    days_since_push: 0
+    write_policy: pr-only
+    approval: human-merge
+    checks: [qa-review]
+    routine: weekly
+    deploy: vercel
+  - repo: kms-spbe
+    tier: 2
+    fork: false
+    domain: publik
+    team: Pelayanan Publik
+    owner: publik-portal
+    reviewer: qa-review
+    lang: TypeScript
+    size_kb: 474
+    days_since_push: 31
+    write_policy: pr-only
+    approval: human-merge
+    checks: [qa-review]
+    routine: weekly
+  - repo: mata-aihackfest-2026
+    tier: 2
+    fork: false
+    domain: publik
+    team: Pelayanan Publik
+    owner: publik-akuntabilitas
+    reviewer: qa-review
+    lang: HTML
+    size_kb: 5866
+    days_since_push: 13
+    write_policy: pr-only
+    approval: human-merge
+    checks: [qa-review]
+    routine: weekly
+  - repo: mata-watchdog-pi
+    tier: 2
+    fork: false
+    domain: publik
+    team: Pelayanan Publik
+    owner: publik-akuntabilitas
+    reviewer: qa-review
+    lang: JavaScript
+    size_kb: 28
+    days_since_push: 33
+    write_policy: pr-only
+    approval: human-merge
+    checks: [qa-review]
+    routine: weekly
+  - repo: niu-gayo-agroclimate
+    tier: 2
+    fork: false
+    domain: publik
+    team: Pelayanan Publik
+    owner: publik-akuntabilitas
+    reviewer: qa-review
+    lang: JavaScript
+    size_kb: 1469
+    days_since_push: 1
+    write_policy: pr-only
+    approval: human-merge
+    checks: [qa-review]
+    routine: weekly
+  - repo: Smart-ASN-Gayo-Mengaji
+    tier: 2
+    fork: false
+    domain: publik
+    team: Pelayanan Publik
+    owner: publik-akuntabilitas
+    reviewer: qa-review
+    lang: TypeScript
+    size_kb: 183
+    days_since_push: 40
+    write_policy: pr-only
+    approval: human-merge
+    checks: [qa-review]
+    routine: weekly
+  - repo: SPBE-DevOps-Academy
+    tier: 2
+    fork: false
+    domain: publik
+    team: Pelayanan Publik
+    owner: publik-portal
+    reviewer: qa-review
+    lang: JavaScript
+    size_kb: 121
+    days_since_push: 31
+    write_policy: pr-only
+    approval: human-merge
+    checks: [qa-review]
+    routine: weekly
+  - repo: contentvela
+    tier: 2
+    fork: false
+    domain: edukasi
+    team: Pendidikan & Riset
+    owner: edu-konten
+    reviewer: qa-review
+    lang: TypeScript
+    size_kb: 83
+    days_since_push: 12
+    write_policy: pr-only
+    approval: human-merge
+    checks: [qa-review]
+    routine: weekly
+  - repo: kelas
+    tier: 2
+    fork: false
+    domain: edukasi
+    team: Pendidikan & Riset
+    owner: edu-konten
+    reviewer: qa-review
+    lang: TypeScript
+    size_kb: 322
+    days_since_push: 8
+    write_policy: pr-only
+    approval: human-merge
+    checks: [qa-review]
+    routine: weekly
+  - repo: Maze-3D-Game---Web-Based
+    tier: 2
+    fork: false
+    domain: riset
+    team: Pendidikan & Riset
+    owner: riset-scout
+    reviewer: qa-review
+    lang: HTML
+    size_kb: 27
+    days_since_push: 114
+    write_policy: pr-only
+    approval: human-merge
+    checks: [qa-review]
+    routine: weekly
+  - repo: niu-journal
+    tier: 2
+    fork: false
+    domain: edukasi
+    team: Pendidikan & Riset
+    owner: edu-konten
+    reviewer: qa-review
+    lang: TypeScript
+    size_kb: 183
+    days_since_push: 44
+    write_policy: pr-only
+    approval: human-merge
+    checks: [qa-review]
+    routine: weekly
+  - repo: niu-journal-reflection-assistant
+    tier: 2
+    fork: false
+    domain: edukasi
+    team: Pendidikan & Riset
+    owner: edu-konten
+    reviewer: qa-review
+    lang: TypeScript
+    size_kb: 156
+    days_since_push: 44
+    write_policy: pr-only
+    approval: human-merge
+    checks: [qa-review]
+    routine: weekly
+  - repo: sapa-ai
+    tier: 2
+    fork: false
+    domain: riset
+    team: Pendidikan & Riset
+    owner: riset-scout
+    reviewer: qa-review
+    lang: TypeScript
+    size_kb: 2621
+    days_since_push: 18
+    write_policy: pr-only
+    approval: human-merge
+    checks: [qa-review]
+    routine: weekly
+  - repo: spatial-vision
+    tier: 2
+    fork: false
+    domain: riset
+    team: Pendidikan & Riset
+    owner: riset-scout
+    reviewer: qa-review
+    lang: HTML
+    size_kb: 19789
+    days_since_push: 62
+    write_policy: pr-only
+    approval: human-merge
+    checks: [qa-review]
+    routine: weekly
+  - repo: latticesend
+    tier: 2
+    fork: false
+    domain: perkakas
+    team: Perkakas
+    owner: tools-lead
+    reviewer: qa-review
+    lang: HTML
+    size_kb: 214
+    days_since_push: 70
+    write_policy: pr-only
+    approval: human-merge
+    checks: [qa-review]
+    routine: weekly
+  - repo: niu-cast
+    tier: 2
+    fork: false
+    domain: perkakas
+    team: Perkakas
+    owner: tools-lead
+    reviewer: qa-review
+    lang: Java
+    size_kb: 163919
+    days_since_push: 13
+    write_policy: pr-only
+    approval: human-merge
+    checks: [qa-review]
+    routine: weekly
+  - repo: pdf-inspector
+    tier: 2
+    fork: false
+    domain: perkakas
+    team: Perkakas
+    owner: tools-lead
+    reviewer: qa-review
+    lang: Python
+    size_kb: 2
+    days_since_push: 60
+    write_policy: pr-only
+    approval: human-merge
+    checks: [qa-review]
+    routine: weekly
+  - repo: didong-code
+    tier: 2
+    fork: false
+    domain: ade
+    team: Sistem & Lingkungan
+    owner: sys-ade
+    reviewer: qa-review
+    lang: TypeScript
+    size_kb: 130
+    days_since_push: 104
+    write_policy: pr-only
+    approval: human-merge
+    checks: [qa-review]
+    routine: weekly
+  - repo: Flame-ADE
+    tier: 2
+    fork: false
+    domain: ade
+    team: Sistem & Lingkungan
+    owner: sys-ade
+    reviewer: qa-review
+    lang: TypeScript
+    size_kb: 705
+    days_since_push: 13
+    write_policy: pr-only
+    approval: human-merge
+    checks: [qa-review]
+    routine: weekly
+  - repo: hypr-rust
+    tier: 2
+    fork: false
+    domain: desktop
+    team: Sistem & Lingkungan
+    owner: sys-desktop
+    reviewer: qa-review
+    lang: Rust
+    size_kb: 154
+    days_since_push: 0
+    write_policy: pr-only
+    approval: human-merge
+    checks: [qa-review]
+    routine: weekly
+  - repo: Continue-Agent
+    tier: 3
+    fork: false
+    domain: agen
+    team: Infrastruktur Agen
+    owner: agen-harness
+    reviewer: none
+    lang: null
+    size_kb: 0
+    days_since_push: 358
+    write_policy: pr-only
+    approval: bot-merge
+    checks: []
+    routine: monthly
+  - repo: HermesV-Github
+    tier: 3
+    fork: false
+    domain: agen
+    team: Infrastruktur Agen
+    owner: agen-runtime
+    reviewer: none
+    lang: null
+    size_kb: 8
+    days_since_push: 130
+    write_policy: pr-only
+    approval: bot-merge
+    checks: []
+    routine: monthly
+  - repo: Devs-Niu
+    tier: 3
+    fork: false
+    domain: lain
+    team: Kantor Pusat
+    owner: notaris
+    reviewer: none
+    lang: null
+    size_kb: 0
+    days_since_push: 345
+    write_policy: pr-only
+    approval: bot-merge
+    checks: []
+    routine: monthly
+    catatan: belum terklasifikasi - notaris wajib menyelesaikan
+  - repo: Prakom-Surgawi
+    tier: 3
+    fork: false
+    domain: lain
+    team: Kantor Pusat
+    owner: notaris
+    reviewer: none
+    lang: null
+    size_kb: 0
+    days_since_push: 388
+    write_policy: pr-only
+    approval: bot-merge
+    checks: []
+    routine: monthly
+    catatan: belum terklasifikasi - notaris wajib menyelesaikan
+  - repo: ZaryuHive
+    tier: 3
+    fork: false
+    domain: lain
+    team: Kantor Pusat
+    owner: notaris
+    reviewer: none
+    lang: null
+    size_kb: 79847
+    days_since_push: 510
+    write_policy: pr-only
+    approval: bot-merge
+    checks: []
+    routine: monthly
+    catatan: belum terklasifikasi - notaris wajib menyelesaikan
+  - repo: free-vps
+    tier: 3
+    fork: false
+    domain: perkakas
+    team: Perkakas
+    owner: tools-lead
+    reviewer: none
+    lang: TypeScript
+    size_kb: 278
+    days_since_push: 143
+    write_policy: pr-only
+    approval: bot-merge
+    checks: []
+    routine: monthly
+  - repo: niu-speedtest
+    tier: 3
+    fork: false
+    domain: perkakas
+    team: Perkakas
+    owner: tools-lead
+    reviewer: none
+    lang: Python
+    size_kb: 13
+    days_since_push: 337
+    write_policy: pr-only
+    approval: bot-merge
+    checks: []
+    routine: monthly
+  - repo: agsv1-hyprpanel
+    tier: 3
+    fork: false
+    domain: desktop
+    team: Sistem & Lingkungan
+    owner: sys-desktop
+    reviewer: none
+    lang: TypeScript
+    size_kb: 10122
+    days_since_push: 648
+    write_policy: pr-only
+    approval: bot-merge
+    checks: []
+    routine: monthly
+  - repo: AnachonisticHypr
+    tier: 3
+    fork: false
+    domain: desktop
+    team: Sistem & Lingkungan
+    owner: sys-desktop
+    reviewer: none
+    lang: Shell
+    size_kb: 137556
+    days_since_push: 689
+    write_policy: pr-only
+    approval: bot-merge
+    checks: []
+    routine: monthly
+  - repo: flame-code
+    tier: 3
+    fork: false
+    domain: ade
+    team: Sistem & Lingkungan
+    owner: sys-ade
+    reviewer: none
+    lang: TypeScript
+    size_kb: 1541
+    days_since_push: 141
+    write_policy: pr-only
+    approval: bot-merge
+    checks: []
+    routine: monthly
+  - repo: hive-dotfiles
+    tier: 3
+    fork: false
+    domain: desktop
+    team: Sistem & Lingkungan
+    owner: sys-desktop
+    reviewer: none
+    lang: CSS
+    size_kb: 136843
+    days_since_push: 649
+    write_policy: pr-only
+    approval: bot-merge
+    checks: []
+    routine: monthly
+  - repo: hyprnix
+    tier: 3
+    fork: false
+    domain: desktop
+    team: Sistem & Lingkungan
+    owner: sys-desktop
+    reviewer: none
+    lang: Nix
+    size_kb: 784
+    days_since_push: 602
+    write_policy: pr-only
+    approval: bot-merge
+    checks: []
+    routine: monthly
+  - repo: Niu-Startpage
+    tier: 3
+    fork: false
+    domain: desktop
+    team: Sistem & Lingkungan
+    owner: sys-desktop
+    reviewer: none
+    lang: HTML
+    size_kb: 156
+    days_since_push: 362
+    write_policy: pr-only
+    approval: bot-merge
+    checks: []
+    routine: monthly
+  - repo: ryu-dots
+    tier: 3
+    fork: false
+    domain: desktop
+    team: Sistem & Lingkungan
+    owner: sys-desktop
+    reviewer: none
+    lang: null
+    size_kb: 0
+    days_since_push: 336
+    write_policy: pr-only
+    approval: bot-merge
+    checks: []
+    routine: monthly
+  - repo: RyuDE
+    tier: 3
+    fork: false
+    domain: desktop
+    team: Sistem & Lingkungan
+    owner: sys-desktop
+    reviewer: none
+    lang: C++
+    size_kb: 151241
+    days_since_push: 509
+    write_policy: pr-only
+    approval: bot-merge
+    checks: []
+    routine: monthly
+  - repo: Niu-Cyber-Search-Engine
+    tier: 3
+    fork: false
+    domain: web
+    team: Web & Portal
+    owner: web-app
+    reviewer: none
+    lang: TypeScript
+    size_kb: 236
+    days_since_push: 362
+    write_policy: pr-only
+    approval: bot-merge
+    checks: []
+    routine: monthly
+  - repo: niu-private
+    tier: 3
+    fork: false
+    domain: web
+    team: Web & Portal
+    owner: web-app
+    reviewer: none
+    lang: TypeScript
+    size_kb: 130
+    days_since_push: 133
+    write_policy: pr-only
+    approval: bot-merge
+    checks: []
+    routine: monthly
+  - repo: VirtualAssistance
+    tier: 3
+    fork: false
+    domain: web
+    team: Web & Portal
+    owner: web-app
+    reviewer: none
+    lang: TypeScript
+    size_kb: 113
+    days_since_push: 138
+    write_policy: pr-only
+    approval: bot-merge
+    checks: []
+    routine: monthly
+  - repo: agentic-awesome-skills
+    tier: 4
+    fork: true
+    domain: agen
+    team: Infrastruktur Agen
+    owner: agen-harness
+    reviewer: none
+    lang: null
+    size_kb: 111656
+    days_since_push: 84
+    write_policy: none
+    approval: none
+    checks: []
+    routine: none
+  - repo: airi
+    tier: 4
+    fork: true
+    domain: agen
+    team: Infrastruktur Agen
+    owner: agen-runtime
+    reviewer: none
+    lang: null
+    size_kb: 519728
+    days_since_push: 84
+    write_policy: none
+    approval: none
+    checks: []
+    routine: none
+  - repo: APEX-UI
+    tier: 4
+    fork: true
+    domain: agen
+    team: Infrastruktur Agen
+    owner: agen-runtime
+    reviewer: none
+    lang: null
+    size_kb: 107
+    days_since_push: 60
+    write_policy: none
+    approval: none
+    checks: []
+    routine: none
+  - repo: Bella
+    tier: 4
+    fork: true
+    domain: agen
+    team: Infrastruktur Agen
+    owner: agen-runtime
+    reviewer: none
+    lang: null
+    size_kb: 107636
+    days_since_push: 256
+    write_policy: none
+    approval: none
+    checks: []
+    routine: none
+  - repo: disunday
+    tier: 4
+    fork: true
+    domain: agen
+    team: Infrastruktur Agen
+    owner: agen-runtime
+    reviewer: none
+    lang: null
+    size_kb: 1978
+    days_since_push: 238
+    write_policy: none
+    approval: none
+    checks: []
+    routine: none
+  - repo: docker-mcp-tutorial
+    tier: 4
+    fork: true
+    domain: agen
+    team: Infrastruktur Agen
+    owner: agen-harness
+    reviewer: none
+    lang: null
+    size_kb: 35
+    days_since_push: 402
+    write_policy: none
+    approval: none
+    checks: []
+    routine: none
+  - repo: Free-Claude-Opus
+    tier: 4
+    fork: true
+    domain: agen
+    team: Infrastruktur Agen
+    owner: agen-runtime
+    reviewer: none
+    lang: null
+    size_kb: 9
+    days_since_push: 179
+    write_policy: none
+    approval: none
+    checks: []
+    routine: none
+  - repo: G0DM0D3
+    tier: 4
+    fork: true
+    domain: agen
+    team: Infrastruktur Agen
+    owner: agen-runtime
+    reviewer: none
+    lang: null
+    size_kb: 1078
+    days_since_push: 207
+    write_policy: none
+    approval: none
+    checks: []
+    routine: none
+  - repo: hermes-agent
+    tier: 4
+    fork: true
+    domain: agen
+    team: Infrastruktur Agen
+    owner: agen-runtime
+    reviewer: none
+    lang: Python
+    size_kb: 1152089
+    days_since_push: 10
+    write_policy: none
+    approval: none
+    checks: []
+    routine: none
+  - repo: jcode
+    tier: 4
+    fork: true
+    domain: agen
+    team: Infrastruktur Agen
+    owner: agen-harness
+    reviewer: none
+    lang: null
+    size_kb: 381348
+    days_since_push: 155
+    write_policy: none
+    approval: none
+    checks: []
+    routine: none
+  - repo: mcp-for-beginners-Microsoft
+    tier: 4
+    fork: true
+    domain: agen
+    team: Infrastruktur Agen
+    owner: agen-harness
+    reviewer: none
+    lang: null
+    size_kb: 2168552
+    days_since_push: 381
+    write_policy: none
+    approval: none
+    checks: []
+    routine: none
+  - repo: opencode
+    tier: 4
+    fork: true
+    domain: agen
+    team: Infrastruktur Agen
+    owner: agen-harness
+    reviewer: none
+    lang: null
+    size_kb: 414981
+    days_since_push: 93
+    write_policy: none
+    approval: none
+    checks: []
+    routine: none
+  - repo: skills
+    tier: 4
+    fork: true
+    domain: agen
+    team: Infrastruktur Agen
+    owner: agen-harness
+    reviewer: none
+    lang: null
+    size_kb: 200
+    days_since_push: 159
+    write_policy: none
+    approval: none
+    checks: []
+    routine: none
+  - repo: unlimited-claude-AI
+    tier: 4
+    fork: true
+    domain: agen
+    team: Infrastruktur Agen
+    owner: agen-runtime
+    reviewer: none
+    lang: null
+    size_kb: 669
+    days_since_push: 454
+    write_policy: none
+    approval: none
+    checks: []
+    routine: none
+  - repo: PAGASUS-PRO
+    tier: 4
+    fork: true
+    domain: lain
+    team: Kantor Pusat
+    owner: notaris
+    reviewer: none
+    lang: null
+    size_kb: 220
+    days_since_push: 381
+    write_policy: none
+    approval: none
+    checks: []
+    routine: none
+    catatan: belum terklasifikasi - notaris wajib menyelesaikan
+  - repo: UACC
+    tier: 4
+    fork: true
+    domain: lain
+    team: Kantor Pusat
+    owner: notaris
+    reviewer: none
+    lang: Python
+    size_kb: 3319
+    days_since_push: 62
+    write_policy: none
+    approval: none
+    checks: []
+    routine: none
+    catatan: belum terklasifikasi - notaris wajib menyelesaikan
+  - repo: roboto_origin
+    tier: 4
+    fork: true
+    domain: riset
+    team: Pendidikan & Riset
+    owner: riset-scout
+    reviewer: none
+    lang: null
+    size_kb: 754527
+    days_since_push: 257
+    write_policy: none
+    approval: none
+    checks: []
+    routine: none
+  - repo: opendataloader-pdf
+    tier: 4
+    fork: true
+    domain: perkakas
+    team: Perkakas
+    owner: tools-lead
+    reviewer: none
+    lang: null
+    size_kb: 87651
+    days_since_push: 84
+    write_policy: none
+    approval: none
+    checks: []
+    routine: none
+  - repo: Activate-Office-365-on-Windows-10-11
+    tier: 4
+    fork: true
+    domain: desktop
+    team: Sistem & Lingkungan
+    owner: sys-desktop
+    reviewer: none
+    lang: null
+    size_kb: 3538
+    days_since_push: 783
+    write_policy: none
+    approval: none
+    checks: []
+    routine: none
+  - repo: Android-Dex
+    tier: 4
+    fork: true
+    domain: desktop
+    team: Sistem & Lingkungan
+    owner: sys-desktop
+    reviewer: none
+    lang: null
+    size_kb: 141776
+    days_since_push: 76
+    write_policy: none
+    approval: none
+    checks: []
+    routine: none
+  - repo: Axenide-Dotfiles
+    tier: 4
+    fork: true
+    domain: desktop
+    team: Sistem & Lingkungan
+    owner: sys-desktop
+    reviewer: none
+    lang: null
+    size_kb: 451494
+    days_since_push: 640
+    write_policy: none
+    approval: none
+    checks: []
+    routine: none
+  - repo: cursor-free-vip
+    tier: 4
+    fork: true
+    domain: ade
+    team: Sistem & Lingkungan
+    owner: sys-ade
+    reviewer: none
+    lang: null
+    size_kb: 12241
+    days_since_push: 398
+    write_policy: none
+    approval: none
+    checks: []
+    routine: none
+  - repo: Hyde-cli
+    tier: 4
+    fork: true
+    domain: desktop
+    team: Sistem & Lingkungan
+    owner: sys-desktop
+    reviewer: none
+    lang: null
+    size_kb: 15268
+    days_since_push: 718
+    write_policy: none
+    approval: none
+    checks: []
+    routine: none
+  - repo: hyprdots
+    tier: 4
+    fork: true
+    domain: desktop
+    team: Sistem & Lingkungan
+    owner: sys-desktop
+    reviewer: none
+    lang: Shell
+    size_kb: 973984
+    days_since_push: 613
+    write_policy: none
+    approval: none
+    checks: []
+    routine: none
+  - repo: hyprfloat
+    tier: 4
+    fork: true
+    domain: desktop
+    team: Sistem & Lingkungan
+    owner: sys-desktop
+    reviewer: none
+    lang: null
+    size_kb: 15165
+    days_since_push: 403
+    write_policy: none
+    approval: none
+    checks: []
+    routine: none
+  - repo: kaizen
+    tier: 4
+    fork: true
+    domain: desktop
+    team: Sistem & Lingkungan
+    owner: sys-desktop
+    reviewer: none
+    lang: null
+    size_kb: 114614
+    days_since_push: 681
+    write_policy: none
+    approval: none
+    checks: []
+    routine: none
+  - repo: matt-dotfiles
+    tier: 4
+    fork: true
+    domain: desktop
+    team: Sistem & Lingkungan
+    owner: sys-desktop
+    reviewer: none
+    lang: null
+    size_kb: 322770
+    days_since_push: 690
+    write_policy: none
+    approval: none
+    checks: []
+    routine: none
+  - repo: NiuHomePage
+    tier: 4
+    fork: true
+    domain: desktop
+    team: Sistem & Lingkungan
+    owner: sys-desktop
+    reviewer: none
+    lang: CSS
+    size_kb: 16593
+    days_since_push: 371
+    write_policy: none
+    approval: none
+    checks: []
+    routine: none
+  - repo: ryuland
+    tier: 4
+    fork: true
+    domain: desktop
+    team: Sistem & Lingkungan
+    owner: sys-desktop
+    reviewer: none
+    lang: JavaScript
+    size_kb: 203755
+    days_since_push: 454
+    write_policy: none
+    approval: none
+    checks: []
+    routine: none
+  - repo: ryuland-dotfiles
+    tier: 4
+    fork: true
+    domain: desktop
+    team: Sistem & Lingkungan
+    owner: sys-desktop
+    reviewer: none
+    lang: null
+    size_kb: 19628
+    days_since_push: 385
+    write_policy: none
+    approval: none
+    checks: []
+    routine: none
+  - repo: ryushell
+    tier: 4
+    fork: true
+    domain: desktop
+    team: Sistem & Lingkungan
+    owner: sys-desktop
+    reviewer: none
+    lang: null
+    size_kb: 1869
+    days_since_push: 404
+    write_policy: none
+    approval: none
+    checks: []
+    routine: none
+  - repo: SilentSDDM
+    tier: 4
+    fork: true
+    domain: desktop
+    team: Sistem & Lingkungan
+    owner: sys-desktop
+    reviewer: none
+    lang: null
+    size_kb: 230669
+    days_since_push: 361
+    write_policy: none
+    approval: none
+    checks: []
+    routine: none
+  - repo: terax-ai
+    tier: 4
+    fork: true
+    domain: ade
+    team: Sistem & Lingkungan
+    owner: sys-ade
+    reviewer: none
+    lang: TypeScript
+    size_kb: 12345
+    days_since_push: 141
+    write_policy: none
+    approval: none
+    checks: []
+    routine: none
+  - repo: win11-dotfiles
+    tier: 4
+    fork: true
+    domain: desktop
+    team: Sistem & Lingkungan
+    owner: sys-desktop
+    reviewer: none
+    lang: CSS
+    size_kb: 88289
+    days_since_push: 531
+    write_policy: none
+    approval: none
+    checks: []
+    routine: none
+  - repo: Windots
+    tier: 4
+    fork: true
+    domain: desktop
+    team: Sistem & Lingkungan
+    owner: sys-desktop
+    reviewer: none
+    lang: null
+    size_kb: 73283
+    days_since_push: 441
+    write_policy: none
+    approval: none
+    checks: []
+    routine: none
+  - repo: Zaryu-HyDE
+    tier: 4
+    fork: true
+    domain: desktop
+    team: Sistem & Lingkungan
+    owner: sys-desktop
+    reviewer: none
+    lang: Shell
+    size_kb: 1302316
+    days_since_push: 489
+    write_policy: none
+    approval: none
+    checks: []
+    routine: none
+  - repo: zaryu.startpage
+    tier: 4
+    fork: true
+    domain: desktop
+    team: Sistem & Lingkungan
+    owner: sys-desktop
+    reviewer: none
+    lang: JavaScript
+    size_kb: 65907
+    days_since_push: 371
+    write_policy: none
+    approval: none
+    checks: []
+    routine: none
+  - repo: cyb3rgh0u1.github.io
+    tier: 4
+    fork: true
+    domain: web
+    team: Web & Portal
+    owner: web-app
+    reviewer: none
+    lang: null
+    size_kb: 975
+    days_since_push: 475
+    write_policy: none
+    approval: none
+    checks: []
+    routine: none
+  - repo: lmarena.github.io
+    tier: 4
+    fork: true
+    domain: web
+    team: Web & Portal
+    owner: web-app
+    reviewer: none
+    lang: null
+    size_kb: 320259
+    days_since_push: 288
+    write_policy: none
+    approval: none
+    checks: []
+    routine: none
