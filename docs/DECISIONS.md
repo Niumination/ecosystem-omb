@@ -48,3 +48,8 @@ Sumber: GitHub API live, 2026-10-19. Pindah domain butuh keputusan manusia (§4.
 Tim `Pelayanan Publik` dibuat: `wira` (Chief), `publik-portal`, `publik-akuntabilitas`.
 Routine `laporan-publik` (wira, harian 08:00 Asia/Jakarta, ingat run lalu) dibuat
 dan DIJEDA. Dijadwalkan setelah Fase 0 (branch protection) selesai.
+
+## D-0007 — 2026-10-19 — Fase 3 dijalankan (Infrastruktur Agen)
+
+Tim `Infrastruktur Agen` dibuat: `nala` (Chief), `agen-runtime`, `agen-harness`.
+Domain `agen`: 21 repo, 7 own, 5 aktif. Tidak ada routine khusus fase ini (§8).

@@ -7,7 +7,7 @@ Sumber: `docs/RENCANA-INDUK.md` §9. Satu fase per sesi.
 | 0 | Prasyarat (manusia): branch protection 13 repo tier 1; lokasi registry | 🟡 registry FINAL; branch protection belum |
 | 1 | Kantor Pusat: notaris, qa-review, sec-scan, ops-watch + routine | 🟡 sebagian |
 | 2 | Pelayanan Publik: wira, publik-portal, publik-akuntabilitas | 🟡 sebagian (bot dibuat; routine dijeda) |
-| 3 | Infrastruktur Agen: nala, agen-runtime, agen-harness | ⏳ |
+| 3 | Infrastruktur Agen: nala, agen-runtime, agen-harness | ✅ selesai |
 | 4 | Pendidikan & Riset, Web & Portal, Perkakas | ⏳ |
 | 5 | Sistem & Lingkungan: arga, sys-desktop, sys-ade + webhook | ⏳ |
 
@@ -26,3 +26,8 @@ Sumber: `docs/RENCANA-INDUK.md` §9. Satu fase per sesi.
 - [x] Routine `laporan-publik` (wira, harian 08:00) — dibuat, **dijeda**.
 - [ ] Grant GitHub per bot (§6.1) — blocker manusia.
 - [ ] Jadwalkan routine — menunggu Fase 0.
+
+## Fase 3 — rincian
+
+- [x] Tim `Infrastruktur Agen` dibuat: `nala` (Chief), `agen-runtime`, `agen-harness`.
+- [ ] Grant GitHub per bot (§6.1) — blocker manusia.
