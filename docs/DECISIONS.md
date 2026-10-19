@@ -87,3 +87,14 @@ Tim `Infrastruktur Agen` (`nala`, `agen-runtime`, `agen-harness`) dihapus karena
 
 8 routine dihapus (referensi repo/hitungan org lama): `klasifikasi-lain`, `kesehatan-tier1`, `kesehatan-tier2`, `scan-secret`, `audit-dependensi`, `laporan-publik`, `digest-harian`, `sensus-arsip`.
 Disimpan (generik, tetap valid): `sensus-repo` (notaris), `review-pr` (qa-review), `drill-pemulihan` (ops-watch). Semua masih DIJEDA.
+
+## D-0014 — 2026-10-19 — Grant GitHub per bot DITERAPKAN (§6.1)
+
+Diterapkan lewat API OMB lokal (`PATCH /api/bots/<id>`, field `composio:true` + `connectorTools.github.tools`), bukan lewat UI. Terverifikasi baca-balik `GET /api/bots`.
+17 bot, tanpa tool delete/settings repo:
+- notaris 14 · qa-review 7 · sec-scan 10 · ops-watch 13
+- wira 10 · publik-portal 14 · publik-akuntabilitas 14
+- arga 10 · sys-desktop 14 · sys-ade 14
+- kirana 10 · web-app 14
+- yuda 10 · tools-lead 14
+- maya 10 · edu-konten 14 · riset-scout 7 (read saja)
