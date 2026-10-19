@@ -4,7 +4,7 @@ Sumber: `docs/RENCANA-INDUK.md` §9. Satu fase per sesi.
 
 | Fase | Isi | Status |
 | --- | --- | --- |
-| 0 | Prasyarat (manusia): branch protection 13 repo tier 1; lokasi registry | 🟡 registry FINAL; branch protection belum |
+| 0 | Prasyarat: branch protection tier-1; lokasi registry | ✅ registry FINAL; branch protection 6 repo tier-1 |
 | 1 | Kantor Pusat: notaris, qa-review, sec-scan, ops-watch + routine | 🟡 sebagian |
 | 2 | Pelayanan Publik: wira, publik-portal, publik-akuntabilitas | 🟡 sebagian (bot dibuat; routine dijeda) |
 | 3 | ~~Infrastruktur Agen~~ dihapus (0 repo dalam lingkup 32) | ⚪ dibatalkan |
@@ -48,4 +48,4 @@ Sumber: `docs/RENCANA-INDUK.md` §9. Satu fase per sesi.
 
 Disimpan (generik): `sensus-repo` (notaris), `review-pr` (qa-review), `drill-pemulihan` (ops-watch).
 Dihapus 2026-10-19 (referensi org lama): klasifikasi-lain, kesehatan-tier1/2, scan-secret, audit-dependensi, laporan-publik, digest-harian, sensus-arsip (D-0013).
-Semua masih nonaktif sampai Fase 0 (branch protection).
+Diaktifkan 2026-10-19 (D-0015): sensus-repo, review-pr, drill-pemulihan.

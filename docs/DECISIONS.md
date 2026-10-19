@@ -98,3 +98,9 @@ Diterapkan lewat API OMB lokal (`PATCH /api/bots/<id>`, field `composio:true` + 
 - kirana 10 · web-app 14
 - yuda 10 · tools-lead 14
 - maya 10 · edu-konten 14 · riset-scout 7 (read saja)
+
+## D-0015 — 2026-10-19 — Fase 0 selesai + routine aktif
+
+Branch protection dipasang di **6 repo tier-1** (lingkup 32 repo): niu-dash, Niu-LKH, pabrik-aplikasi-gas, kune-ya.com, niu-dash-fullstack, ai-file-organizer-android. Aturan: require PR (0 approval), no force-push, no delete, enforce_admins=true. Status check CI menyusul per repo.
+3 routine **diaktifkan**: `sensus-repo` (notaris, harian 06:00), `review-pr` (qa-review, 09:00 & 15:00), `drill-pemulihan` (ops-watch, tgl 1).
+Webhook §6.2 **dilewati** (keputusan manusia 2026-10-19).
