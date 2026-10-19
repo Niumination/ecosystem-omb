@@ -11,7 +11,7 @@
 version: 2
 generated: 2026-10-19
 source: https://api.github.com/users/Niumination/repos
-counts: {tier1: 6, tier2: 6, tier3: 7, tier4: 4, total: 23, fork: 4}
+counts: {tier1: 6, tier2: 6, tier3: 7, tier4: 2, total: 21, fork: 2}
 
 repos:
   - repo: niu-dash
@@ -289,36 +289,6 @@ repos:
     approval: bot-merge
     checks: []
     routine: monthly
-  - repo: PAGASUS-PRO
-    tier: 4
-    fork: true
-    domain: lain
-    team: Kantor Pusat
-    owner: notaris
-    reviewer: none
-    lang: null
-    size_kb: 220
-    days_since_push: 381
-    write_policy: none
-    approval: none
-    checks: []
-    routine: none
-    catatan: belum terklasifikasi - notaris wajib menyelesaikan
-  - repo: UACC
-    tier: 4
-    fork: true
-    domain: lain
-    team: Kantor Pusat
-    owner: notaris
-    reviewer: none
-    lang: Python
-    size_kb: 3319
-    days_since_push: 62
-    write_policy: none
-    approval: none
-    checks: []
-    routine: none
-    catatan: belum terklasifikasi - notaris wajib menyelesaikan
   - repo: NiuHomePage
     tier: 4
     fork: true
@@ -356,6 +326,7 @@ excluded:
   - repo: Activate-Office-365-on-Windows-10-11
   - repo: AnachonisticHypr
   - repo: Android-Dex
+  - repo: Automata
   - repo: Axenide-Dotfiles
   - repo: Bella
   - repo: Continue-Agent
@@ -364,18 +335,30 @@ excluded:
   - repo: G0DM0D3
   - repo: HermesV-Github
   - repo: Hyde-cli
+  - repo: JHermUSB-portable
   - repo: Niu-OSS-Dashboard
   - repo: Niumination
+  - repo: Online-Ryu_OBS
+  - repo: PAGASUS-PRO
   - repo: PemdiAcehTengah
   - repo: RyuDE
   - repo: SilentSDDM
   - repo: Smart-ASN-Gayo-Mengaji
+  - repo: TEDEO
+  - repo: TEDEO-Kanban
+  - repo: UACC
   - repo: Windots
+  - repo: Zaryu-Dotfiles
   - repo: Zaryu-HyDE
+  - repo: abstract-studio
   - repo: agentic-awesome-skills
   - repo: agsv1-hyprpanel
+  - repo: aihackfest-mata-media
   - repo: airi
   - repo: arch-web-dashboard
+  - repo: arsip-sensitif
+  - repo: brain
+  - repo: cc-acehtengah
   - repo: cc-switch
   - repo: contentvela
   - repo: cursor-free-vip
@@ -383,11 +366,13 @@ excluded:
   - repo: didong-code
   - repo: disunday
   - repo: docker-mcp-tutorial
+  - repo: dotfiles
   - repo: ecosystem-config
   - repo: flame-code
   - repo: free-vps
   - repo: hermes-agent
   - repo: hermes-office
+  - repo: hermes-office-docs
   - repo: hive-dotfiles
   - repo: hypr-rust
   - repo: hyprdots
@@ -395,8 +380,11 @@ excluded:
   - repo: hyprnix
   - repo: jcode
   - repo: jcode-eco
+  - repo: joy-connect-for-mac
   - repo: kaizen
   - repo: kelas
+  - repo: lightvela-dash
+  - repo: lightvela-hermes-backup
   - repo: lmarena.github.io
   - repo: mac-web-dashboard
   - repo: mata-aihackfest-2026
@@ -404,14 +392,24 @@ excluded:
   - repo: matt-dotfiles
   - repo: mcp-for-beginners-Microsoft
   - repo: mirai
+  - repo: niu-flow
   - repo: niu-gayo-agroclimate
+  - repo: niu-gayo-agroclimate-docs
   - repo: niu-journal
   - repo: niu-journal-reflection-assistant
+  - repo: niu-kanban-dash
   - repo: niu-mission-control
   - repo: niu-speedtest
+  - repo: niu-studio
+  - repo: niude
+  - repo: niumination-restore
+  - repo: niumination-workspace
+  - repo: niutui
   - repo: omb-lightvela
+  - repo: omb-lightvela-secrets
   - repo: opencode
   - repo: opendataloader-pdf
+  - repo: orchestrator
   - repo: pdf-inspector
   - repo: roboto_origin
   - repo: ryu-dots
@@ -423,3 +421,8 @@ excluded:
   - repo: terax-ai
   - repo: unlimited-claude-AI
   - repo: win11-dotfiles
+  - repo: zaryu-dev
+  - repo: zaryu-hyprland-dotfiles
+  - repo: zaryu-terminal-dotfiles
+  - repo: zaryu.dev
+  - repo: zen
