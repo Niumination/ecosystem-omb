@@ -53,3 +53,10 @@ dan DIJEDA. Dijadwalkan setelah Fase 0 (branch protection) selesai.
 
 Tim `Infrastruktur Agen` dibuat: `nala` (Chief), `agen-runtime`, `agen-harness`.
 Domain `agen`: 21 repo, 7 own, 5 aktif. Tidak ada routine khusus fase ini (§8).
+
+## D-0008 — 2026-10-19 — Fase 4 dijalankan (3 tim)
+
+Tiga tim dibuat sekaligus (Fase 2–3 bersih):
+- `Web & Portal`: `kirana` (Chief), `web-app`.
+- `Perkakas`: `yuda` (Chief), `tools-lead`.
+- `Pendidikan & Riset`: `maya` (Chief), `edu-konten`, `riset-scout` (read-only §6.1).

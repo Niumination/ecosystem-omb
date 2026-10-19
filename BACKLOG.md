@@ -8,7 +8,7 @@ Sumber: `docs/RENCANA-INDUK.md` §9. Satu fase per sesi.
 | 1 | Kantor Pusat: notaris, qa-review, sec-scan, ops-watch + routine | 🟡 sebagian |
 | 2 | Pelayanan Publik: wira, publik-portal, publik-akuntabilitas | 🟡 sebagian (bot dibuat; routine dijeda) |
 | 3 | Infrastruktur Agen: nala, agen-runtime, agen-harness | ✅ selesai |
-| 4 | Pendidikan & Riset, Web & Portal, Perkakas | ⏳ |
+| 4 | Pendidikan & Riset, Web & Portal, Perkakas | ✅ selesai |
 | 5 | Sistem & Lingkungan: arga, sys-desktop, sys-ade + webhook | ⏳ |
 
 ## Fase 1 — rincian
@@ -31,3 +31,10 @@ Sumber: `docs/RENCANA-INDUK.md` §9. Satu fase per sesi.
 
 - [x] Tim `Infrastruktur Agen` dibuat: `nala` (Chief), `agen-runtime`, `agen-harness`.
 - [ ] Grant GitHub per bot (§6.1) — blocker manusia.
+
+## Fase 4 — rincian
+
+- [x] Tim `Web & Portal`: `kirana` (Chief), `web-app`.
+- [x] Tim `Perkakas`: `yuda` (Chief), `tools-lead`.
+- [x] Tim `Pendidikan & Riset`: `maya` (Chief), `edu-konten`, `riset-scout`.
+- [ ] Grant GitHub per bot (§6.1) — blocker manusia. `riset-scout` = read saja.
