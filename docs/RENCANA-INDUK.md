@@ -320,7 +320,7 @@ Maksimal **3 thread berjalan per bot**. Konsekuensinya:
 
 ---
 
-## 7. Matriks approval — tidak bisa dinegosiasikan
+## 7. Matriks approval — tidak bisa dinegosiasi
 
 | Aksi | Tier 1 | Tier 2 | Tier 3 | Tier 4 |
 | --- | :---: | :---: | :---: | :---: |
