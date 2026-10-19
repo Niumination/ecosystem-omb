@@ -1,0 +1,38 @@
+# DECISIONS — catatan keputusan
+
+Keputusan hanya ditulis di sini setelah diambil. Usulan diberi tanda MENUNGGU.
+
+## D-0001 — 2026-10-19 — Repo `ecosystem-omb` dibuat
+
+Rumah setup & konfigurasi ekosistem OMB (Niumination Works), terpisah dari
+`ecosystem-config` (Hermes) dan `omb-lightvela` (deployment).
+Pemilik: `Assistant` (Chief of Staff). Diputuskan oleh manusia (Afrizal Munthe).
+
+## D-0002 — 2026-10-19 — Kandidat lokasi registry — MENUNGGU KEPUTUSAN MANUSIA
+
+Usulan: registry di `ecosystem-omb/registry/omb/repos.yaml` (opsi "repo terpisah"
+§9 Fase 0). Bila disetujui, §9 mewajibkan mencatat di sini + mengarsipkan
+sejumlah repo dormant sebagai pengganti (§10).
+
+## D-0003 — 2026-10-19 — Sensus manual (Fase 1)
+
+GitHub API = 139 repo (99 own, 40 fork). Registry seed = 95 (55 own, 40 fork).
+Selisih: 44 repo own baru, 0 hilang. Fork cocok (40=40).
+Keputusan penambahan 44 repo ke registry: MENUNGGU KEPUTUSAN MANUSIA (§4.3).
+
+## D-0004 — 2026-10-19 — Usulan klasifikasi 5 repo `domain: lain` — MENUNGGU KEPUTUSAN MANUSIA
+
+| repo | fork | usulan domain | tier | alasan |
+| --- | --- | --- | --- | --- |
+| Devs-Niu | tidak | tetap `lain` | 3 | kosong total (0 KB, tanpa file/deskripsi) |
+| Prakom-Surgawi | tidak | tetap `lain` | 3 | kosong, deskripsi generik |
+| ZaryuHive | tidak | `desktop` | 3 | struktur rice/dotfiles (Configs/Source/screenshots) |
+| UACC | ya | `agen` | 4 | MCP/agent harness (AGENTS.md, uacc_mcp/, .cursorrules) |
+| PAGASUS-PRO | ya | `perkakas` | 4 | README: ADB Utility Toolkit |
+
+Sumber: GitHub API live, 2026-10-19. Pindah domain butuh keputusan manusia (§4.3).
+
+## Terbuka
+
+- Fase 0: branch protection 13 repo tier 1; lokasi registry final.
+- §6.1: grant tool GitHub per bot (manual, di Connected apps OMB).

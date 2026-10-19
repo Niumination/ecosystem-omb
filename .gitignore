@@ -1,0 +1,11 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+*.swp
+.vscode/
+
+# secrets — jangan pernah commit
+.env
+.env.*
+*.pem
+*.key
