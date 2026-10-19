@@ -110,3 +110,10 @@ Webhook §6.2 **dilewati** (keputusan manusia 2026-10-19).
 Akar salah census (run manual notaris 16:30): memakai daftar repo **publik** (96) — **44 repo Niumination PRIVAT** (mis. AuditTI-AT, DiskominfoAT, asn-admin, niu-storage) hanya muncul di API terautentikasi; daftar `excluded:` diabaikan; sebagian nama dipelintir.
 Fix: skrip deterministik `scripts/sensus-repo.mjs` (diff daftar API terautentikasi vs registry, hormati `excluded:`). Routine `sensus-repo` dikembalikan ke `notaris` (harian 06:00) dengan instruksi deterministik — wajib pakai tool terautentikasi `GITHUB_LIST_REPOSITORIES_FOR_THE_AUTHENTICATED_USER`, bukan fetch publik.
 Hasil benar 2026-10-19: **140 API = 32 aktif + 108 excluded → 0 selisih**.
+
+## D-0017 — 2026-10-19 — Integrasi Slack
+
+Slack terhubung (workspace `niumination`, user `archk4li`). Channel kerja **#niumination-works** (id `C0CAJJ81V9A`) dibuat 2026-10-19.
+Grant Slack: **Assistant** (14 tool: kirim, baca, cari, thread, create-channel, set-topic). Bot lain belum.
+Routine **`digest-harian`** (Assistant, harian 19:00 WIB) mengirim ringkasan ke #niumination-works.
+Catatan: **app-event trigger tidak tersedia** di server ini (pakai Composio key sendiri) — Slack hanya lewat tool + jadwal/webhook.
