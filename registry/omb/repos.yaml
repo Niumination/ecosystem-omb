@@ -11,7 +11,7 @@
 version: 2
 generated: 2026-10-19
 source: https://api.github.com/users/Niumination/repos
-counts: {tier1: 6, tier2: 6, tier3: 7, tier4: 2, total: 21, fork: 2}
+counts: {tier1: 6, tier2: 13, tier3: 14, tier4: 2, total: 35, fork: 2}
 
 repos:
   - repo: niu-dash
@@ -317,6 +317,202 @@ repos:
     approval: none
     checks: []
     routine: none
+  - repo: AuditTI-AT
+    tier: 2
+    fork: false
+    domain: publik
+    team: Pelayanan Publik
+    owner: publik-akuntabilitas
+    reviewer: qa-review
+    lang: JavaScript
+    size_kb: 206
+    days_since_push: 66
+    write_policy: pr-only
+    approval: human-merge
+    checks: [qa-review]
+    routine: weekly
+  - repo: Database-DiskominfoAT
+    tier: 3
+    fork: false
+    domain: publik
+    team: Pelayanan Publik
+    owner: publik-portal
+    reviewer: none
+    lang: null
+    size_kb: 5
+    days_since_push: 370
+    write_policy: pr-only
+    approval: bot-merge
+    checks: []
+    routine: monthly
+  - repo: Diskominfo-Web
+    tier: 3
+    fork: false
+    domain: publik
+    team: Pelayanan Publik
+    owner: publik-portal
+    reviewer: none
+    lang: HTML
+    size_kb: 35
+    days_since_push: 374
+    write_policy: pr-only
+    approval: bot-merge
+    checks: []
+    routine: monthly
+  - repo: DiskominfoAT
+    tier: 3
+    fork: false
+    domain: publik
+    team: Pelayanan Publik
+    owner: publik-portal
+    reviewer: none
+    lang: HTML
+    size_kb: 93
+    days_since_push: 370
+    write_policy: pr-only
+    approval: bot-merge
+    checks: []
+    routine: monthly
+  - repo: Niu-Vermilion
+    tier: 2
+    fork: false
+    domain: lain
+    team: Kantor Pusat
+    owner: notaris
+    reviewer: qa-review
+    lang: TypeScript
+    size_kb: 178
+    days_since_push: 12
+    write_policy: pr-only
+    approval: human-merge
+    checks: [qa-review]
+    routine: weekly
+  - repo: NiuTerm
+    tier: 3
+    fork: false
+    domain: ade
+    team: Sistem & Lingkungan
+    owner: sys-ade
+    reviewer: none
+    lang: TypeScript
+    size_kb: 127
+    days_since_push: 146
+    write_policy: pr-only
+    approval: bot-merge
+    checks: []
+    routine: monthly
+  - repo: PP-AT
+    tier: 3
+    fork: false
+    domain: publik
+    team: Pelayanan Publik
+    owner: publik-portal
+    reviewer: none
+    lang: JavaScript
+    size_kb: 64
+    days_since_push: 174
+    write_policy: pr-only
+    approval: bot-merge
+    checks: []
+    routine: monthly
+  - repo: Rekapitulasi-SPBE
+    tier: 3
+    fork: false
+    domain: publik
+    team: Pelayanan Publik
+    owner: publik-portal
+    reviewer: none
+    lang: JavaScript
+    size_kb: 174
+    days_since_push: 351
+    write_policy: pr-only
+    approval: bot-merge
+    checks: []
+    routine: monthly
+  - repo: asn-admin
+    tier: 2
+    fork: false
+    domain: publik
+    team: Pelayanan Publik
+    owner: publik-akuntabilitas
+    reviewer: qa-review
+    lang: Python
+    size_kb: 174
+    days_since_push: 13
+    write_policy: pr-only
+    approval: human-merge
+    checks: [qa-review]
+    routine: weekly
+  - repo: eKinerja-AfrizalMunthe
+    tier: 2
+    fork: false
+    domain: publik
+    team: Pelayanan Publik
+    owner: publik-akuntabilitas
+    reviewer: qa-review
+    lang: null
+    size_kb: 38736
+    days_since_push: 73
+    write_policy: pr-only
+    approval: human-merge
+    checks: [qa-review]
+    routine: weekly
+  - repo: ecosystem-omb
+    tier: 2
+    fork: false
+    domain: pusat
+    team: Kantor Pusat
+    owner: notaris
+    reviewer: qa-review
+    lang: null
+    size_kb: 45
+    days_since_push: 0
+    write_policy: pr-only
+    approval: human-merge
+    checks: [qa-review]
+    routine: weekly
+  - repo: niu-storage
+    tier: 3
+    fork: false
+    domain: web
+    team: Web & Portal
+    owner: web-app
+    reviewer: none
+    lang: null
+    size_kb: 1573
+    days_since_push: 132
+    write_policy: pr-only
+    approval: bot-merge
+    checks: []
+    routine: monthly
+  - repo: ultra-automation
+    tier: 2
+    fork: false
+    domain: lain
+    team: Kantor Pusat
+    owner: notaris
+    reviewer: qa-review
+    lang: HTML
+    size_kb: 82
+    days_since_push: 115
+    write_policy: pr-only
+    approval: human-merge
+    checks: [qa-review]
+    routine: weekly
+  - repo: x-downloader
+    tier: 2
+    fork: false
+    domain: perkakas
+    team: Perkakas
+    owner: tools-lead
+    reviewer: qa-review
+    lang: Python
+    size_kb: 269
+    days_since_push: 105
+    write_policy: pr-only
+    approval: human-merge
+    checks: [qa-review]
+    routine: weekly
 
 # ---- dikecualikan dari ekosistem OMB (di luar lingkup; census TIDAK mengadopsi) ----
 # Sumber: instruksi manusia (Afrizal Munthe), 2026-10-19.
