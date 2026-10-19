@@ -27,6 +27,11 @@ https://github.com/Niumination/brain/blob/main/docs/ecosystem-changelog.md
 - `AGENTS.md` — aturan kerja bot Niumination Works.
 - `BACKLOG.md` — status fase.
 
+## Integrasi
+
+- **GitHub** — registry + repo OMB; grant tool per bot (§6.1).
+- **Slack** — workspace `niumination`; channel kerja `#niumination-works`. Digest harian (Assistant) dikirim ke sana. Lihat D-0017.
+
 ## Batas
 
 - Tidak menyentuh `ecosystem-config`, Hermes, `vault/`, `SOUL.md`, atau cron Hermes.
