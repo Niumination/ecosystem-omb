@@ -124,3 +124,17 @@ Atas keputusan manusia (Afrizal Munthe): izin semua bot diperluas ke **all tools
 Pengecualian: **riset-scout** GitHub tetap **read-only 7 tool** (§6.1); Slack `"*"`.
 D-0014 (grant terbatas per-bot) dan tabel di `docs/GRANT-GITHUB.md` jadi **USANG** — digantikan D-0018.
 Aturan SOUL tetap berlaku walau tool tersedia: tanpa force-push/delete, fork tier 4 tak pernah ditulis, tanpa secret/PII.
+
+## D-0019 — 2026-10-20 — Usulan klasifikasi 2 repo `domain: lain` (Devs-Niu, Prakom-Surgawi) — MENUNGGU KEPUTUSAN MANUSIA
+
+Melengkapi D-0004 untuk dua repo yang masih `domain: lain` dan berstatus
+`catatan: belum terklasifikasi - notaris wajib menyelesaikan` di registry.
+
+| repo | fork | sekarang | usul domain | usul tier | alasan |
+| --- | --- | --- | --- | --- | --- |
+| Devs-Niu | tidak | `lain` (tier 3) | tetap `lain` | 3 | kosong total (0 KB, tanpa file/deskripsi, `lang: null`); tidak ada dasar teknis untuk memetakan ke `desktop`/`web`/`publik`/`perkakas`/`pusat` |
+| Prakom-Surgawi | tidak | `lain` (tier 3) | tetap `lain` | 3 | kosong total (0 KB, tanpa file/deskripsi, `lang: null`); tidak ada dasar teknis untuk memetakan ke `desktop`/`web`/`publik`/`perkakas`/`pusat` |
+
+Sumber: registry `registry/omb/repos.yaml` (v2, 32 entri) + GitHub API terautentikasi, 2026-10-20.
+Pindah domain butuh keputusan manusia (§4.3). PR ini **tidak** mengubah `domain`/`tier` di registry;
+usulan ini menutup status "belum terklasifikasi": domain tetap `lain` sampai repo berisi.
