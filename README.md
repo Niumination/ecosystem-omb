@@ -23,13 +23,13 @@ https://github.com/Niumination/brain/blob/main/docs/ecosystem-changelog.md
 
 - `docs/RENCANA-INDUK.md` — rencana induk v2, sumber kebenaran struktur organisasi.
 - `docs/DECISIONS.md` — catatan keputusan.
-- `registry/omb/repos.yaml` — registry repo (seed 95 entri). Penulis tunggal: bot `notaris`, lewat PR.
+- `registry/omb/repos.yaml` — registry repo (32 entri aktif, v2). Penulis tunggal: bot `notaris`, lewat PR.
 - `AGENTS.md` — aturan kerja bot Niumination Works.
 - `BACKLOG.md` — status fase.
 
 ## Integrasi
 
-- **GitHub** — registry + repo OMB; grant tool per bot (§6.1).
+- **GitHub** — registry + repo OMB; grant all tools (D-0018), kecuali `riset-scout` read-only (§6.1).
 - **Slack** — workspace `niumination`; channel kerja `#niumination-works`. Digest harian (Assistant) dikirim ke sana. Lihat D-0017.
 
 ## Batas
