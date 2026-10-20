@@ -88,7 +88,7 @@ Tim `Infrastruktur Agen` (`nala`, `agen-runtime`, `agen-harness`) dihapus karena
 8 routine dihapus (referensi repo/hitungan org lama): `klasifikasi-lain`, `kesehatan-tier1`, `kesehatan-tier2`, `scan-secret`, `audit-dependensi`, `laporan-publik`, `digest-harian`, `sensus-arsip`.
 Disimpan (generik, tetap valid): `sensus-repo` (notaris), `review-pr` (qa-review), `drill-pemulihan` (ops-watch). Semua masih DIJEDA.
 
-## D-0014 — 2026-10-19 — Grant GitHub per bot DITERAPKAN (§6.1)
+## D-0014 — 2026-10-19 — Grant GitHub per bot DITERAPKAN (§6.1) — **DIGANTIKAN D-0018**
 
 Diterapkan lewat API OMB lokal (`PATCH /api/bots/<id>`, field `composio:true` + `connectorTools.github.tools`), bukan lewat UI. Terverifikasi baca-balik `GET /api/bots`.
 17 bot, tanpa tool delete/settings repo:
@@ -117,3 +117,10 @@ Slack terhubung (workspace `niumination`, user `archk4li`). Channel kerja **#niu
 Grant Slack: **Assistant** (14 tool: kirim, baca, cari, thread, create-channel, set-topic). Bot lain belum.
 Routine **`digest-harian`** (Assistant, harian 19:00 WIB) mengirim ringkasan ke #niumination-works.
 Catatan: **app-event trigger tidak tersedia** di server ini (pakai Composio key sendiri) — Slack hanya lewat tool + jadwal/webhook.
+
+## D-0018 — 2026-10-20 — Grant semua bot = all tools
+
+Atas keputusan manusia (Afrizal Munthe): izin semua bot diperluas ke **all tools** — GitHub `"*"` + Slack `"*"` (Composio). Diterapkan lewat API OMB lokal (`PATCH /api/bots/<id>`), diverifikasi baca-balik `GET /api/bots`.
+Pengecualian: **riset-scout** GitHub tetap **read-only 7 tool** (§6.1); Slack `"*"`.
+D-0014 (grant terbatas per-bot) dan tabel di `docs/GRANT-GITHUB.md` jadi **USANG** — digantikan D-0018.
+Aturan SOUL tetap berlaku walau tool tersedia: tanpa force-push/delete, fork tier 4 tak pernah ditulis, tanpa secret/PII.

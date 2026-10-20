@@ -1,5 +1,7 @@
 # Grant GitHub per bot (§6.1) — jalur aman
 
+> **USANG sejak 2026-10-20 (D-0018).** Semua bot kini **all tools** (GitHub `"*"` + Slack `"*"`), kecuali `riset-scout` GitHub tetap read-only 7 tool (§6.1). Tabel & aturan per-bot di bawah disimpan sebagai riwayat.
+
 **Cara:** OMB → Connected apps → settings tiap bot → GitHub → pilih **daftar tool persis**, BUKAN *all tools*.
 **Aturan keras:** tidak ada bot yang boleh dapat tool **delete** atau **settings repo**. Ragu = jangan beri.
 
@@ -40,3 +42,7 @@ Kelompok tool (slug Composio) yang dipasang:
 - ISSUE: GITHUB_CREATE_AN_ISSUE, GITHUB_SEARCH_ISSUES_AND_PULL_REQUESTS, GITHUB_CREATE_AN_ISSUE_COMMENT
 - REVIEW: GITHUB_CREATE_A_REVIEW_COMMENT_FOR_A_PULL_REQUEST, GITHUB_CREATE_A_REVIEW_FOR_A_PULL_REQUEST, GITHUB_SUBMIT_A_REVIEW_FOR_A_PULL_REQUEST
 - WORKFLOW: GITHUB_LIST_REPOSITORY_WORKFLOWS, GITHUB_LIST_WORKFLOW_RUNS_FOR_A_REPOSITORY, GITHUB_GET_A_WORKFLOW
+
+## Diterapkan 2026-10-20 (via API OMB) — all tools (D-0018)
+
+Semua bot: GitHub `"*"` + Slack `"*"` (all tools). Pengecualian: `riset-scout` GitHub read-only 7 tool (§6.1). Diterapkan lewat `PATCH /api/bots/<id>`, diverifikasi `GET /api/bots`.
