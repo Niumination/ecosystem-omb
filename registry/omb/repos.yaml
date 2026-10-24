@@ -8,10 +8,10 @@
 # tier 3 = milik sendiri, dormant | tier 4 = FORK upstream (katalog saja, nol otomasi)
 #
 # write_policy: pr-only | none    approval: human-merge | bot-merge | none
-version: 2
-generated: 2026-10-19
+version: 3
+generated: 2026-10-24
 source: https://api.github.com/users/Niumination/repos
-counts: {tier1: 6, tier2: 12, tier3: 12, tier4: 2, total: 32, fork: 2}
+counts: {tier1: 6, tier2: 12, tier3: 23, tier4: 2, total: 43, fork: 2}
 
 repos:
   - repo: niu-dash
@@ -470,6 +470,183 @@ repos:
     approval: human-merge
     checks: [qa-review]
     routine: weekly
+
+
+  - repo: aistudio-google
+    tier: 3
+    fork: false
+    domain: lain
+    team: Kantor Pusat
+    owner: notaris
+    reviewer: none
+    lang: Kotlin
+    size_kb: 22102
+    days_since_push: -1
+    write_policy: pr-only
+    approval: bot-merge
+    checks: []
+    routine: monthly
+    catatan: belum terklasifikasi - notaris wajib menyelesaikan
+
+  - repo: apex-ui-mirror
+    tier: 3
+    fork: false
+    domain: lain
+    team: Kantor Pusat
+    owner: notaris
+    reviewer: none
+    lang: JavaScript
+    size_kb: 90
+    days_since_push: 0
+    write_policy: pr-only
+    approval: bot-merge
+    checks: []
+    routine: monthly
+    catatan: belum terklasifikasi - notaris wajib menyelesaikan
+
+  - repo: arena.ai
+    tier: 3
+    fork: false
+    domain: lain
+    team: Kantor Pusat
+    owner: notaris
+    reviewer: none
+    lang: HTML
+    size_kb: 17
+    days_since_push: -1
+    write_policy: pr-only
+    approval: bot-merge
+    checks: []
+    routine: monthly
+    catatan: belum terklasifikasi - notaris wajib menyelesaikan
+
+  - repo: audit-2026-10-13
+    tier: 3
+    fork: false
+    domain: lain
+    team: Kantor Pusat
+    owner: notaris
+    reviewer: none
+    lang: HTML
+    size_kb: 368
+    days_since_push: -1
+    write_policy: pr-only
+    approval: bot-merge
+    checks: []
+    routine: monthly
+    catatan: belum terklasifikasi - notaris wajib menyelesaikan
+
+  - repo: edu-content
+    tier: 3
+    fork: false
+    domain: lain
+    team: Kantor Pusat
+    owner: notaris
+    reviewer: none
+    lang: HTML
+    size_kb: 59401
+    days_since_push: -1
+    write_policy: pr-only
+    approval: bot-merge
+    checks: []
+    routine: monthly
+    catatan: belum terklasifikasi - notaris wajib menyelesaikan
+
+  - repo: hermes-office-data
+    tier: 3
+    fork: false
+    domain: lain
+    team: Kantor Pusat
+    owner: notaris
+    reviewer: none
+    lang: Python
+    size_kb: 476
+    days_since_push: 0
+    write_policy: pr-only
+    approval: bot-merge
+    checks: []
+    routine: monthly
+    catatan: belum terklasifikasi - notaris wajib menyelesaikan
+
+  - repo: kopi-aceh-app-android
+    tier: 3
+    fork: false
+    domain: lain
+    team: Kantor Pusat
+    owner: notaris
+    reviewer: none
+    lang: TypeScript
+    size_kb: 1
+    days_since_push: -1
+    write_policy: pr-only
+    approval: bot-merge
+    checks: []
+    routine: monthly
+    catatan: belum terklasifikasi - notaris wajib menyelesaikan
+
+  - repo: landing-web-id
+    tier: 3
+    fork: false
+    domain: lain
+    team: Kantor Pusat
+    owner: notaris
+    reviewer: none
+    lang: HTML
+    size_kb: 10
+    days_since_push: -1
+    write_policy: pr-only
+    approval: bot-merge
+    checks: []
+    routine: monthly
+    catatan: belum terklasifikasi - notaris wajib menyelesaikan
+
+  - repo: pi-app-studio-mata
+    tier: 3
+    fork: false
+    domain: lain
+    team: Kantor Pusat
+    owner: notaris
+    reviewer: none
+    lang: JavaScript
+    size_kb: 46
+    days_since_push: -1
+    write_policy: pr-only
+    approval: bot-merge
+    checks: []
+    routine: monthly
+    catatan: belum terklasifikasi - notaris wajib menyelesaikan
+
+  - repo: remotion-studio
+    tier: 3
+    fork: false
+    domain: lain
+    team: Kantor Pusat
+    owner: notaris
+    reviewer: none
+    lang: TypeScript
+    size_kb: 286
+    days_since_push: -1
+    write_policy: pr-only
+    approval: bot-merge
+    checks: []
+    routine: monthly
+    catatan: belum terklasifikasi - notaris wajib menyelesaikan
+
+  - repo: wiki
+    tier: 3
+    fork: false
+    domain: lain
+    team: Kantor Pusat
+    owner: notaris
+    reviewer: none
+    lang: null
+    size_kb: 15
+    days_since_push: -1
+    write_policy: pr-only
+    approval: bot-merge
+    checks: []
+    routine: monthly
+    catatan: belum terklasifikasi - notaris wajib menyelesaikan
 
 # ---- dikecualikan dari ekosistem OMB (di luar lingkup; census TIDAK mengadopsi) ----
 # Sumber: instruksi manusia (Afrizal Munthe), 2026-10-19.
